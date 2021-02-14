@@ -14,7 +14,7 @@
 #
 # Handling files and paths 
 from pathlib import Path
-# Use Regex
+# Use Regular expression (extracting information from strings)
 import re
 
 
