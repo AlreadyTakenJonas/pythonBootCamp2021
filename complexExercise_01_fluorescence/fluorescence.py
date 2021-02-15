@@ -76,8 +76,10 @@ plt.ylabel("intensity")
 # Use raw binary string to enable LaTeX encoding -> greek letters
 plt.xlabel(r"wavelength $\lambda$ / $nm$")
 # Save plot to file
+# IMPORTANT: use this command before plt.show!
 plt.savefig( str(workingDir) + "/img/spectra.png" )
-
+# Show plot and allow creation of a new plot
+plt.show()
 
 #
 #   STEP 3 : FIND MAXIMUM AND EXTRACT PEAK HEIGHT
@@ -108,14 +110,14 @@ peakHeightChange = {
 }
 
 # Plot the progress
-# Create new empty plot
-plt.subplots()
 # Plot the peak height change as scatter plot
 plt.scatter("concentration", "intensity", data = peakHeightChange)
 # Add labels and title
 plt.title("Peak Height Change")
 plt.xlabel("concentration c/nM")
 plt.ylabel("intensity")
+# Show plot and allow creation of a new plot
+plt.show()
 
 #
 #   STEP 4 : APPROXIMATE BLIND VALUE
@@ -137,14 +139,14 @@ peakHeightChange["concentration"] = np.append( peakHeightChange["concentration"]
 peakHeightChange["intensity"]     = np.append( peakHeightChange["intensity"]    , blindValue )
 
 # Plot the progress
-# Create new empty plot
-plt.subplots()
 # Plot the peak height change as scatter plot
 plt.scatter("concentration", "intensity", data = peakHeightChange)
 # Add labels and title
 plt.title("Peak Height Change")
 plt.xlabel("concentration c/nM")
 plt.ylabel("intensity")
+# Show plot and allow creation of a new plot
+plt.show()
 
 #
 #   STEP 5 : DO LINEAR REGRESSION
@@ -162,14 +164,12 @@ linearFit = LinearRegression().fit( peakHeightChange["concentration"],
                                     peakHeightChange["intensity"] )
 
 # Print formula of linear regression
-print(linearFit.coef_[0], " * c + ", linearFit.intercept_)
+print("Linear Regression:\n I =", linearFit.coef_[0], "/ nM * c + ", linearFit.intercept_)
 
 # Define small function to predict concentration from measured peak height
 predictConcentration = lambda intensity : (intensity - linearFit.intercept_)/linearFit.coef_[0]
 
 # Create a lovely plot
-# Create new empty plot
-plt.subplots()
 # Plot the peak height change as scatter plot
 plt.scatter("concentration", "intensity", data = peakHeightChange, label="data")
 # Draw regression line
@@ -186,8 +186,10 @@ plt.legend()
 plotDescription = "Regression: $I = a * c + b$ \n a = {}/nM \n b = {}".format(linearFit.coef_[0], linearFit.intercept_)
 plt.text(200,0, plotDescription )
 # Save plot to file
+# IMPORTANT: use this command before plt.show!
 plt.savefig(str(workingDir)+"/img/regression.png")
-
+# Show plot and allow creation of a new plot
+plt.show()
 
 #
 #   STEP 6 : PREDICT CONCENTRATIONS
@@ -199,4 +201,4 @@ intensity = float(input("I = "))
 # Predict with regression model
 concentration = predictConcentration(intensity)
 # Return result
-print("The samples concentration is c =", str(concentration), "nmol/L")
+print("The samples concentration is c =", str(concentration), "nM")
