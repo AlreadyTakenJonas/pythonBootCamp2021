@@ -1,0 +1,9 @@
+Exponential Regression:
+ ΔU = A * exp(-b * time)
+Sample                      A / V    b / (1/ms)    half-life time t / ms
+-----------------------  --------  ------------  -----------------------
+Copper Sulfate 0.1mol/L  13.4286     0.00751752                  92.2042
+Copper Sulfate 0.5mol/L  11.7997     0.0363303                   19.0791
+Glycerine                14.2535     0.0167573                   41.3639
+Mineral Oil              13.2788     0.0233726                   29.6564
+Water                     3.69929    0.00132182                 524.388
