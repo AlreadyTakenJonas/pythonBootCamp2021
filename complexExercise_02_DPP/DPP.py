@@ -101,7 +101,7 @@ for ion, peakLocation in peakLocations.items():
     # np.interp need x values in increasing order -> [::-1] reverses the order of the array
     currentChange       = [ np.interp(peakLocation, graph["voltage"][::-1], graph["current"][::-1]) for graph in polarograms ]
     # Get the ion concentrations
-    concentrationChange = [ graph["concentration"]                                      for graph in polarograms ]
+    concentrationChange = [ graph["concentration"]                                                  for graph in polarograms ]
     # Add data to the data structure
     # Save current and concentration as np.array with .reshape(-1,1),
     # because the linear regression needs them in this format
