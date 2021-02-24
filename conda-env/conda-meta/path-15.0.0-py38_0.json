@@ -1,0 +1,150 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/home/jonas/anaconda3/pkgs/path-15.0.0-py38_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/path-15.0.0.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/path-15.0.0.dist-info/LICENSE",
+    "lib/python3.8/site-packages/path-15.0.0.dist-info/METADATA",
+    "lib/python3.8/site-packages/path-15.0.0.dist-info/RECORD",
+    "lib/python3.8/site-packages/path-15.0.0.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/path-15.0.0.dist-info/WHEEL",
+    "lib/python3.8/site-packages/path-15.0.0.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/path-15.0.0.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/path/__init__.py",
+    "lib/python3.8/site-packages/path/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/path/__pycache__/matchers.cpython-38.pyc",
+    "lib/python3.8/site-packages/path/__pycache__/py37compat.cpython-38.pyc",
+    "lib/python3.8/site-packages/path/matchers.py",
+    "lib/python3.8/site-packages/path/py37compat.py"
+  ],
+  "fn": "path-15.0.0-py38_0.conda",
+  "legacy_bz2_md5": "8d8c9fba435329659fb6a305b5fb9560",
+  "legacy_bz2_size": 40165,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/jonas/anaconda3/pkgs/path-15.0.0-py38_0",
+    "type": 1
+  },
+  "md5": "9e36938fbd9aa27e8151650312984d77",
+  "name": "path",
+  "package_tarball_full_path": "/home/jonas/anaconda3/pkgs/path-15.0.0-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/path-15.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/path-15.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8",
+        "sha256_in_prefix": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "lib/python3.8/site-packages/path-15.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3e0f714361f68cfae75d4a40158422166a3bd3a1887287794486389a4b821229",
+        "sha256_in_prefix": "3e0f714361f68cfae75d4a40158422166a3bd3a1887287794486389a4b821229",
+        "size_in_bytes": 6896
+      },
+      {
+        "_path": "lib/python3.8/site-packages/path-15.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b446b28cfcc117cf01430f3b7e30bdb7d5e49196747b7b91459f95d31581dc51",
+        "sha256_in_prefix": "b446b28cfcc117cf01430f3b7e30bdb7d5e49196747b7b91459f95d31581dc51",
+        "size_in_bytes": 1004
+      },
+      {
+        "_path": "lib/python3.8/site-packages/path-15.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/path-15.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "lib/python3.8/site-packages/path-15.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5b67ed511000e6bd8f9a5fbf766483c6bc53f6a10998a82312d09a0c7e176d81",
+        "sha256_in_prefix": "5b67ed511000e6bd8f9a5fbf766483c6bc53f6a10998a82312d09a0c7e176d81",
+        "size_in_bytes": 77
+      },
+      {
+        "_path": "lib/python3.8/site-packages/path-15.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d8a68357f40705851032b610c2e1e753596c9370b7b2f459ae2d26c399475e2d",
+        "sha256_in_prefix": "d8a68357f40705851032b610c2e1e753596c9370b7b2f459ae2d26c399475e2d",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/path/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "82b8ec2314cbbc4dd84a0df14164b6b6cb7eae31bd999af653e161c3ae40cc91",
+        "sha256_in_prefix": "82b8ec2314cbbc4dd84a0df14164b6b6cb7eae31bd999af653e161c3ae40cc91",
+        "size_in_bytes": 52882
+      },
+      {
+        "_path": "lib/python3.8/site-packages/path/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ae6ae3e5ca0c09b0b0b4170edb438a7397f7f5a52ca3b9c6b7b161c8011e26d",
+        "sha256_in_prefix": "6ae6ae3e5ca0c09b0b0b4170edb438a7397f7f5a52ca3b9c6b7b161c8011e26d",
+        "size_in_bytes": 55694
+      },
+      {
+        "_path": "lib/python3.8/site-packages/path/__pycache__/matchers.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "298e61921ede0a8548ca3ee3c66986fbf82190d957914dde57762cd2521763e8",
+        "sha256_in_prefix": "298e61921ede0a8548ca3ee3c66986fbf82190d957914dde57762cd2521763e8",
+        "size_in_bytes": 2152
+      },
+      {
+        "_path": "lib/python3.8/site-packages/path/__pycache__/py37compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc22485d4182aff5b45569ba37b0d4694c3847d27d787362c1b0f7ec9f268a2d",
+        "sha256_in_prefix": "bc22485d4182aff5b45569ba37b0d4694c3847d27d787362c1b0f7ec9f268a2d",
+        "size_in_bytes": 1977
+      },
+      {
+        "_path": "lib/python3.8/site-packages/path/matchers.py",
+        "path_type": "hardlink",
+        "sha256": "80e77143acd4f68700f9ae6d45683ea394e495e2a2ff1f858e6cdd83ed4ff80a",
+        "sha256_in_prefix": "80e77143acd4f68700f9ae6d45683ea394e495e2a2ff1f858e6cdd83ed4ff80a",
+        "size_in_bytes": 1385
+      },
+      {
+        "_path": "lib/python3.8/site-packages/path/py37compat.py",
+        "path_type": "hardlink",
+        "sha256": "4b5a4fc278646c473299217f9ada8a47290a071e22f3e76dd5ff137d5d56cb58",
+        "sha256_in_prefix": "4b5a4fc278646c473299217f9ada8a47290a071e22f3e76dd5ff137d5d56cb58",
+        "size_in_bytes": 4746
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8534fe16827cea3ed8a035b0d4e4d9d60d37e7ba03e36749d41f2a52d1ddd6d9",
+  "size": 39325,
+  "subdir": "linux-64",
+  "timestamp": 1598376541054,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/path-15.0.0-py38_0.conda",
+  "version": "15.0.0"
+}

@@ -1,0 +1,49 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [
+    "openssl !=1.1.1e"
+  ],
+  "depends": [
+    "bokeh >=1.0.0,!=2.0.0",
+    "cloudpickle >=0.2.2",
+    "cytoolz >=0.8.2",
+    "dask-core 2.30.0.*",
+    "distributed >=2.30.0",
+    "fsspec >=0.6.0",
+    "numpy >=1.13.0",
+    "pandas >=0.23.0",
+    "partd >=0.3.10",
+    "python >=3.6",
+    "toolz >=0.8.2"
+  ],
+  "extracted_package_dir": "/home/jonas/anaconda3/pkgs/dask-2.30.0-py_0",
+  "features": "",
+  "files": [],
+  "fn": "dask-2.30.0-py_0.conda",
+  "legacy_bz2_md5": "28589ce41c675a730271246aaf4ca043",
+  "legacy_bz2_size": 4721,
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/jonas/anaconda3/pkgs/dask-2.30.0-py_0",
+    "type": 1
+  },
+  "md5": "962cff2a75256093a3d0a2d431e16a77",
+  "name": "dask",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/jonas/anaconda3/pkgs/dask-2.30.0-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "4eca0b47f5aa47f08190881a19ecbc41b888a7c64866f99ad4f355c281ebf242",
+  "size": 5090,
+  "subdir": "noarch",
+  "timestamp": 1602100743497,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/dask-2.30.0-py_0.conda",
+  "version": "2.30.0"
+}

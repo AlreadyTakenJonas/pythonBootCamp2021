@@ -1,0 +1,151 @@
+{
+  "build": "py38_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.8,<3.9.0a0",
+    "setuptools"
+  ],
+  "extracted_package_dir": "/home/jonas/anaconda3/pkgs/zope.event-4.5.0-py38_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/zope.event-4.5.0-py3.8-nspkg.pth",
+    "lib/python3.8/site-packages/zope.event-4.5.0-py3.8.egg-info/PKG-INFO",
+    "lib/python3.8/site-packages/zope.event-4.5.0-py3.8.egg-info/SOURCES.txt",
+    "lib/python3.8/site-packages/zope.event-4.5.0-py3.8.egg-info/dependency_links.txt",
+    "lib/python3.8/site-packages/zope.event-4.5.0-py3.8.egg-info/namespace_packages.txt",
+    "lib/python3.8/site-packages/zope.event-4.5.0-py3.8.egg-info/not-zip-safe",
+    "lib/python3.8/site-packages/zope.event-4.5.0-py3.8.egg-info/requires.txt",
+    "lib/python3.8/site-packages/zope.event-4.5.0-py3.8.egg-info/top_level.txt",
+    "lib/python3.8/site-packages/zope/event/__init__.py",
+    "lib/python3.8/site-packages/zope/event/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/zope/event/__pycache__/classhandler.cpython-38.pyc",
+    "lib/python3.8/site-packages/zope/event/__pycache__/tests.cpython-38.pyc",
+    "lib/python3.8/site-packages/zope/event/classhandler.py",
+    "lib/python3.8/site-packages/zope/event/tests.py"
+  ],
+  "fn": "zope.event-4.5.0-py38_0.conda",
+  "legacy_bz2_md5": "2882a512544363072a19e180a3b3eb18",
+  "legacy_bz2_size": 189858,
+  "license": "Zope Public License",
+  "license_family": "OTHER",
+  "link": {
+    "source": "/home/jonas/anaconda3/pkgs/zope.event-4.5.0-py38_0",
+    "type": 1
+  },
+  "md5": "7a943b9acc2c9f3d7b1c9e87c18f4828",
+  "name": "zope.event",
+  "package_tarball_full_path": "/home/jonas/anaconda3/pkgs/zope.event-4.5.0-py38_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/zope.event-4.5.0-py3.8-nspkg.pth",
+        "path_type": "hardlink",
+        "sha256": "4961151fe8c45ac298acbd2aa02e86049692b71fe22b11a8018f4f432705542e",
+        "sha256_in_prefix": "4961151fe8c45ac298acbd2aa02e86049692b71fe22b11a8018f4f432705542e",
+        "size_in_bytes": 529
+      },
+      {
+        "_path": "lib/python3.8/site-packages/zope.event-4.5.0-py3.8.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "28aeae7d326cd5a53d78f32121a9193617fa1149bf2b81a5a1868575930a56e8",
+        "sha256_in_prefix": "28aeae7d326cd5a53d78f32121a9193617fa1149bf2b81a5a1868575930a56e8",
+        "size_in_bytes": 5273
+      },
+      {
+        "_path": "lib/python3.8/site-packages/zope.event-4.5.0-py3.8.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "431c824e28879d9ba7a28c39cff0fcd724bbd9fe595092f2c11d6daa2efe04e2",
+        "sha256_in_prefix": "431c824e28879d9ba7a28c39cff0fcd724bbd9fe595092f2c11d6daa2efe04e2",
+        "size_in_bytes": 676
+      },
+      {
+        "_path": "lib/python3.8/site-packages/zope.event-4.5.0-py3.8.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.8/site-packages/zope.event-4.5.0-py3.8.egg-info/namespace_packages.txt",
+        "path_type": "hardlink",
+        "sha256": "429507be93b8c08b990de120298f2a642b43fad02e901d1f9ff7fabadce56fdf",
+        "sha256_in_prefix": "429507be93b8c08b990de120298f2a642b43fad02e901d1f9ff7fabadce56fdf",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/zope.event-4.5.0-py3.8.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.8/site-packages/zope.event-4.5.0-py3.8.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "2245558da1e770033e5b8c9be96b22e1ece9f7e1d319993ac3bdd834118f03c8",
+        "sha256_in_prefix": "2245558da1e770033e5b8c9be96b22e1ece9f7e1d319993ac3bdd834118f03c8",
+        "size_in_bytes": 50
+      },
+      {
+        "_path": "lib/python3.8/site-packages/zope.event-4.5.0-py3.8.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "429507be93b8c08b990de120298f2a642b43fad02e901d1f9ff7fabadce56fdf",
+        "sha256_in_prefix": "429507be93b8c08b990de120298f2a642b43fad02e901d1f9ff7fabadce56fdf",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/zope/event/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f865bef0f30bffafcbb23083bcbcc55642f8b13611b652ebfd92ad3dbb3e470e",
+        "sha256_in_prefix": "f865bef0f30bffafcbb23083bcbcc55642f8b13611b652ebfd92ad3dbb3e470e",
+        "size_in_bytes": 1141
+      },
+      {
+        "_path": "lib/python3.8/site-packages/zope/event/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5dece2fd536a4a2a65ada231085fc8fdcc52e9107bbdfa175d3f643420fdc2ed",
+        "sha256_in_prefix": "5dece2fd536a4a2a65ada231085fc8fdcc52e9107bbdfa175d3f643420fdc2ed",
+        "size_in_bytes": 390
+      },
+      {
+        "_path": "lib/python3.8/site-packages/zope/event/__pycache__/classhandler.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b5139d7dbc55b857813e52a4ccd2d59534858db726780eda18d5ce7a9e69355",
+        "sha256_in_prefix": "8b5139d7dbc55b857813e52a4ccd2d59534858db726780eda18d5ce7a9e69355",
+        "size_in_bytes": 2016
+      },
+      {
+        "_path": "lib/python3.8/site-packages/zope/event/__pycache__/tests.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "810962e5b4e5de57c7670dd1ea59712c1fadd3bab96b486db6284d88d1e24a95",
+        "sha256_in_prefix": "810962e5b4e5de57c7670dd1ea59712c1fadd3bab96b486db6284d88d1e24a95",
+        "size_in_bytes": 1959
+      },
+      {
+        "_path": "lib/python3.8/site-packages/zope/event/classhandler.py",
+        "path_type": "hardlink",
+        "sha256": "78b5762022db813bcfb6c81c3c4db086859dd9e23fc6aadfad78a131904f28d3",
+        "sha256_in_prefix": "78b5762022db813bcfb6c81c3c4db086859dd9e23fc6aadfad78a131904f28d3",
+        "size_in_bytes": 1817
+      },
+      {
+        "_path": "lib/python3.8/site-packages/zope/event/tests.py",
+        "path_type": "hardlink",
+        "sha256": "6ef133bce98fa1011332a622aac47d11e56c0bc0f3cbe1ce7257e94055630e11",
+        "sha256_in_prefix": "6ef133bce98fa1011332a622aac47d11e56c0bc0f3cbe1ce7257e94055630e11",
+        "size_in_bytes": 1871
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "317e46caad0cb77497c9c832829772343a32bcb44914a24cea9ec40365147b36",
+  "size": 214328,
+  "subdir": "linux-64",
+  "timestamp": 1602679981330,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/zope.event-4.5.0-py38_0.conda",
+  "version": "4.5.0"
+}

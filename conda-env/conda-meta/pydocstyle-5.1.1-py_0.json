@@ -1,0 +1,250 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5",
+    "snowballstemmer"
+  ],
+  "extracted_package_dir": "/home/jonas/anaconda3/pkgs/pydocstyle-5.1.1-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/pydocstyle-5.1.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/pydocstyle-5.1.1.dist-info/LICENSE-MIT",
+    "lib/python3.8/site-packages/pydocstyle-5.1.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/pydocstyle-5.1.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/pydocstyle-5.1.1.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/pydocstyle-5.1.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/pydocstyle-5.1.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/pydocstyle-5.1.1.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/pydocstyle-5.1.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/pydocstyle/__init__.py",
+    "lib/python3.8/site-packages/pydocstyle/__main__.py",
+    "lib/python3.8/site-packages/pydocstyle/checker.py",
+    "lib/python3.8/site-packages/pydocstyle/cli.py",
+    "lib/python3.8/site-packages/pydocstyle/config.py",
+    "lib/python3.8/site-packages/pydocstyle/data/imperatives.txt",
+    "lib/python3.8/site-packages/pydocstyle/data/imperatives_blacklist.txt",
+    "lib/python3.8/site-packages/pydocstyle/parser.py",
+    "lib/python3.8/site-packages/pydocstyle/utils.py",
+    "lib/python3.8/site-packages/pydocstyle/violations.py",
+    "lib/python3.8/site-packages/pydocstyle/wordlists.py",
+    "lib/python3.8/site-packages/pydocstyle/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydocstyle/__pycache__/__main__.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydocstyle/__pycache__/checker.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydocstyle/__pycache__/cli.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydocstyle/__pycache__/config.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydocstyle/__pycache__/parser.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydocstyle/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydocstyle/__pycache__/violations.cpython-38.pyc",
+    "lib/python3.8/site-packages/pydocstyle/__pycache__/wordlists.cpython-38.pyc",
+    "bin/pydocstyle"
+  ],
+  "fn": "pydocstyle-5.1.1-py_0.conda",
+  "legacy_bz2_md5": "abf9d2b54c3170f69cb55ab589ad9e19",
+  "legacy_bz2_size": 37434,
+  "license": "MIT",
+  "link": {
+    "source": "/home/jonas/anaconda3/pkgs/pydocstyle-5.1.1-py_0",
+    "type": 1
+  },
+  "md5": "85ab549f2e5686b48a67683f7f429750",
+  "name": "pydocstyle",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/jonas/anaconda3/pkgs/pydocstyle-5.1.1-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pydocstyle-5.1.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.1.1.dist-info/LICENSE-MIT",
+        "path_type": "hardlink",
+        "sha256": "8ecce61adf0212499789e497f5916245a4963cd520b344c77beecd95c566031b",
+        "sha256_in_prefix": "8ecce61adf0212499789e497f5916245a4963cd520b344c77beecd95c566031b",
+        "size_in_bytes": 1143
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.1.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "91edf18a6f453a16aa7dcbffa395c8fa76905f9131e0c729d6ba495f36958ec8",
+        "sha256_in_prefix": "91edf18a6f453a16aa7dcbffa395c8fa76905f9131e0c729d6ba495f36958ec8",
+        "size_in_bytes": 2552
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.1.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d4f4aa5527698d9d4ca676d1f54355bdb10c7e5201e9b12cbe620ff432302322",
+        "sha256_in_prefix": "d4f4aa5527698d9d4ca676d1f54355bdb10c7e5201e9b12cbe620ff432302322",
+        "size_in_bytes": 2209
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.1.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.1.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "sha256_in_prefix": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.1.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "5b9ef3def6e4b4e1f411426fe67ec6fd060370b0b1933299a560b1c91173b0f9",
+        "sha256_in_prefix": "5b9ef3def6e4b4e1f411426fe67ec6fd060370b0b1933299a560b1c91173b0f9",
+        "size_in_bytes": 83
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.1.1.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "20e06467c531a6d704ef71ff8f96a03319a80c7e772c62aee5567c670a3f6ceb",
+        "sha256_in_prefix": "20e06467c531a6d704ef71ff8f96a03319a80c7e772c62aee5567c670a3f6ceb",
+        "size_in_bytes": 52
+      },
+      {
+        "_path": "site-packages/pydocstyle-5.1.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "a555397d8b23b5b339bd0e1f271b6689e022007eb22a5f26602b4a5cd5665494",
+        "sha256_in_prefix": "a555397d8b23b5b339bd0e1f271b6689e022007eb22a5f26602b4a5cd5665494",
+        "size_in_bytes": 11
+      },
+      {
+        "_path": "site-packages/pydocstyle/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "00a60ef8d1fe1a8d82356eb2fec39c43ebc9c6222d5932d6c52eb3e754ead1fd",
+        "sha256_in_prefix": "00a60ef8d1fe1a8d82356eb2fec39c43ebc9c6222d5932d6c52eb3e754ead1fd",
+        "size_in_bytes": 211
+      },
+      {
+        "_path": "site-packages/pydocstyle/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "0981346ea7f7090856948418748e3ef42e94f04ab84d523fd482faf225cb51ae",
+        "sha256_in_prefix": "0981346ea7f7090856948418748e3ef42e94f04ab84d523fd482faf225cb51ae",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "site-packages/pydocstyle/checker.py",
+        "path_type": "hardlink",
+        "sha256": "3e07e46b527d701e3415cf08c934337ac10e8ee349a8b8c5d2b148af33f01f18",
+        "sha256_in_prefix": "3e07e46b527d701e3415cf08c934337ac10e8ee349a8b8c5d2b148af33f01f18",
+        "size_in_bytes": 41927
+      },
+      {
+        "_path": "site-packages/pydocstyle/cli.py",
+        "path_type": "hardlink",
+        "sha256": "994bde3b0a205ddc6f544afc8c4f6e5a4b62330878a633675993bff86ab86944",
+        "sha256_in_prefix": "994bde3b0a205ddc6f544afc8c4f6e5a4b62330878a633675993bff86ab86944",
+        "size_in_bytes": 2692
+      },
+      {
+        "_path": "site-packages/pydocstyle/config.py",
+        "path_type": "hardlink",
+        "sha256": "0cdc60c65801e290b98f49b949d420935693b38ebc7fe214ca7b4da71bbc7837",
+        "sha256_in_prefix": "0cdc60c65801e290b98f49b949d420935693b38ebc7fe214ca7b4da71bbc7837",
+        "size_in_bytes": 26230
+      },
+      {
+        "_path": "site-packages/pydocstyle/data/imperatives.txt",
+        "path_type": "hardlink",
+        "sha256": "00f98b00680e02604ffde0e1aa43476a2e43e4f7f3889e3c5fa7b9b13770bb37",
+        "sha256_in_prefix": "00f98b00680e02604ffde0e1aa43476a2e43e4f7f3889e3c5fa7b9b13770bb37",
+        "size_in_bytes": 1813
+      },
+      {
+        "_path": "site-packages/pydocstyle/data/imperatives_blacklist.txt",
+        "path_type": "hardlink",
+        "sha256": "97f689e9b5516ce7de128f86a6d7b0e5366874928111aad4b4226605cf1d0ea5",
+        "sha256_in_prefix": "97f689e9b5516ce7de128f86a6d7b0e5366874928111aad4b4226605cf1d0ea5",
+        "size_in_bytes": 1451
+      },
+      {
+        "_path": "site-packages/pydocstyle/parser.py",
+        "path_type": "hardlink",
+        "sha256": "1cde7d31ddcd166dd811c7fb077d856bc64f43e9f3240d5b4cad483ce982cbc3",
+        "sha256_in_prefix": "1cde7d31ddcd166dd811c7fb077d856bc64f43e9f3240d5b4cad483ce982cbc3",
+        "size_in_bytes": 26053
+      },
+      {
+        "_path": "site-packages/pydocstyle/utils.py",
+        "path_type": "hardlink",
+        "sha256": "e0338eeef55d0a0713cc1d8db7e03f365dbe57f7087e9460fbb6145e71800c13",
+        "sha256_in_prefix": "e0338eeef55d0a0713cc1d8db7e03f365dbe57f7087e9460fbb6145e71800c13",
+        "size_in_bytes": 1325
+      },
+      {
+        "_path": "site-packages/pydocstyle/violations.py",
+        "path_type": "hardlink",
+        "sha256": "e3c7a5d7048e17e909001723183d644979e7bc538e2aebc620565c975a8bdd3d",
+        "sha256_in_prefix": "e3c7a5d7048e17e909001723183d644979e7bc538e2aebc620565c975a8bdd3d",
+        "size_in_bytes": 11941
+      },
+      {
+        "_path": "site-packages/pydocstyle/wordlists.py",
+        "path_type": "hardlink",
+        "sha256": "e59b08660f3e052f7246467b1e782955340f93688b0a705db96caf99a903978b",
+        "sha256_in_prefix": "e59b08660f3e052f7246467b1e782955340f93688b0a705db96caf99a903978b",
+        "size_in_bytes": 1548
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydocstyle/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydocstyle/__pycache__/__main__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydocstyle/__pycache__/checker.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydocstyle/__pycache__/cli.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydocstyle/__pycache__/config.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydocstyle/__pycache__/parser.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydocstyle/__pycache__/utils.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydocstyle/__pycache__/violations.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/pydocstyle/__pycache__/wordlists.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "bin/pydocstyle",
+        "path_type": "unix_python_entry_point"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "72775e0961441d7f7625392f31f0ad37d14438836e26c2e96175b0bc57368bcc",
+  "size": 38563,
+  "subdir": "noarch",
+  "timestamp": 1598885037779,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pydocstyle-5.1.1-py_0.conda",
+  "version": "5.1.1"
+}

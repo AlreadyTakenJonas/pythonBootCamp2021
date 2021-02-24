@@ -1,0 +1,135 @@
+{
+  "build": "py38h7b6447c_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/home/jonas/anaconda3/pkgs/greenlet-0.4.17-py38h7b6447c_0",
+  "features": "",
+  "files": [
+    "include/python3.8/greenlet/greenlet.h",
+    "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/AUTHORS",
+    "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/LICENSE",
+    "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/LICENSE.PSF",
+    "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/METADATA",
+    "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/RECORD",
+    "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/WHEEL",
+    "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/greenlet.cpython-38-x86_64-linux-gnu.so"
+  ],
+  "fn": "greenlet-0.4.17-py38h7b6447c_0.conda",
+  "legacy_bz2_md5": "87426bac5d11fa50b27789984b77044f",
+  "legacy_bz2_size": 23575,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/jonas/anaconda3/pkgs/greenlet-0.4.17-py38h7b6447c_0",
+    "type": 1
+  },
+  "md5": "0cc3fe79a7c85d203e94b7e5b5e3234e",
+  "name": "greenlet",
+  "package_tarball_full_path": "/home/jonas/anaconda3/pkgs/greenlet-0.4.17-py38h7b6447c_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/python3.8/greenlet/greenlet.h",
+        "path_type": "hardlink",
+        "sha256": "94cc70e59dac9358e349786acc1235de20a1e3042cbfbd0f62739555a9ba9192",
+        "sha256_in_prefix": "94cc70e59dac9358e349786acc1235de20a1e3042cbfbd0f62739555a9ba9192",
+        "size_in_bytes": 4176
+      },
+      {
+        "_path": "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "b305b6f2dda49d547146468440d66d3bb30ff52827a26a5bec1e9c36024cf069",
+        "sha256_in_prefix": "b305b6f2dda49d547146468440d66d3bb30ff52827a26a5bec1e9c36024cf069",
+        "size_in_bytes": 849
+      },
+      {
+        "_path": "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "bbde55d5456a1e912633ed3f66d1dbd9504e3e3dce4f4c2015043cdcbc56e697",
+        "sha256_in_prefix": "bbde55d5456a1e912633ed3f66d1dbd9504e3e3dce4f4c2015043cdcbc56e697",
+        "size_in_bytes": 1408
+      },
+      {
+        "_path": "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/LICENSE.PSF",
+        "path_type": "hardlink",
+        "sha256": "e5ff3c23c110e494cd7d736c10fd96d462457bafeca310840db6527298c7d46b",
+        "sha256_in_prefix": "e5ff3c23c110e494cd7d736c10fd96d462457bafeca310840db6527298c7d46b",
+        "size_in_bytes": 2424
+      },
+      {
+        "_path": "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d497c8be08bf22b1844a176d5ea9744a7a014cedb480cf9415a02c922324b0e8",
+        "sha256_in_prefix": "d497c8be08bf22b1844a176d5ea9744a7a014cedb480cf9415a02c922324b0e8",
+        "size_in_bytes": 3378
+      },
+      {
+        "_path": "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "e329f570bd461da2938a1d6313b104dc97be5860aefcb8de9d5f4a7c13ed44de",
+        "sha256_in_prefix": "e329f570bd461da2938a1d6313b104dc97be5860aefcb8de9d5f4a7c13ed44de",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6ea5af29ef1a1379f770c7cdb0cbdbef91f5df7c7d5da376aedf81b57662ae38",
+        "sha256_in_prefix": "6ea5af29ef1a1379f770c7cdb0cbdbef91f5df7c7d5da376aedf81b57662ae38",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "f7fe7f8240928775df55bd849ffa0d0384011d49030acfa311cc5fc3b4589aae",
+        "sha256_in_prefix": "f7fe7f8240928775df55bd849ffa0d0384011d49030acfa311cc5fc3b4589aae",
+        "size_in_bytes": 81
+      },
+      {
+        "_path": "lib/python3.8/site-packages/greenlet-0.4.17.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6129d1b024683bad491a53f9ee8f2228beab74b5835ae8b2283f1e929594b037",
+        "sha256_in_prefix": "6129d1b024683bad491a53f9ee8f2228beab74b5835ae8b2283f1e929594b037",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "lib/python3.8/site-packages/greenlet.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "a3e2b0df93dc97b06f38fabdf7fc5d3be924a2be7c87c4e43f16756ed301f654",
+        "sha256_in_prefix": "a3e2b0df93dc97b06f38fabdf7fc5d3be924a2be7c87c4e43f16756ed301f654",
+        "size_in_bytes": 39032
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e81a6a9ab5443b82420ba40034eefb3cabe4db4341ffa8c384d3888727438fc6",
+  "size": 23829,
+  "subdir": "linux-64",
+  "timestamp": 1600874051223,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/greenlet-0.4.17-py38h7b6447c_0.conda",
+  "version": "0.4.17"
+}

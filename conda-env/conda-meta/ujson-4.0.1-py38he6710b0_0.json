@@ -1,0 +1,111 @@
+{
+  "build": "py38he6710b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=7.3.0",
+    "libstdcxx-ng >=7.3.0",
+    "python >=3.8,<3.9.0a0"
+  ],
+  "extracted_package_dir": "/home/jonas/anaconda3/pkgs/ujson-4.0.1-py38he6710b0_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/LICENSE.txt",
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/ujson-4.0.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/ujson.cpython-38-x86_64-linux-gnu.so"
+  ],
+  "fn": "ujson-4.0.1-py38he6710b0_0.conda",
+  "legacy_bz2_md5": "38a98fb75b148100867260d15a782d56",
+  "legacy_bz2_size": 49159,
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/jonas/anaconda3/pkgs/ujson-4.0.1-py38he6710b0_0",
+    "type": 1
+  },
+  "md5": "c9ee4df278e5da36f5b3b333efae76c4",
+  "name": "ujson",
+  "package_tarball_full_path": "/home/jonas/anaconda3/pkgs/ujson-4.0.1-py38he6710b0_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "6a00a8f8b4050303368b694147bde1aed9c96bdff869c181dbbf3ccb784a1501",
+        "sha256_in_prefix": "6a00a8f8b4050303368b694147bde1aed9c96bdff869c181dbbf3ccb784a1501",
+        "size_in_bytes": 1959
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "12088e2b306889880749ba6de5760627d80d2e014ccf10e9a0d3b9c7801d9e0d",
+        "sha256_in_prefix": "12088e2b306889880749ba6de5760627d80d2e014ccf10e9a0d3b9c7801d9e0d",
+        "size_in_bytes": 12148
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "ca89567f27ad4865ef6dfea4e4229038cf4773559c437ac228fb3f7c3dc443e7",
+        "sha256_in_prefix": "ca89567f27ad4865ef6dfea4e4229038cf4773559c437ac228fb3f7c3dc443e7",
+        "size_in_bytes": 746
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "6ea5af29ef1a1379f770c7cdb0cbdbef91f5df7c7d5da376aedf81b57662ae38",
+        "sha256_in_prefix": "6ea5af29ef1a1379f770c7cdb0cbdbef91f5df7c7d5da376aedf81b57662ae38",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "e9af7094117a80f9bb47d2eba6147972f9bd4f96e1f7188945cc8e79a0128185",
+        "sha256_in_prefix": "e9af7094117a80f9bb47d2eba6147972f9bd4f96e1f7188945cc8e79a0128185",
+        "size_in_bytes": 78
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson-4.0.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "201318b952021d68bdc6798c376d9434c10561fd784dc702ee8f6e60f872720d",
+        "sha256_in_prefix": "201318b952021d68bdc6798c376d9434c10561fd784dc702ee8f6e60f872720d",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "lib/python3.8/site-packages/ujson.cpython-38-x86_64-linux-gnu.so",
+        "path_type": "hardlink",
+        "sha256": "69ab33654847c23b4d0db41c7c28fe62a949eb49cd29c15841b39e75752666d8",
+        "sha256_in_prefix": "69ab33654847c23b4d0db41c7c28fe62a949eb49cd29c15841b39e75752666d8",
+        "size_in_bytes": 99592
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0a71d6c454f90bd8e145bf1cd9d2e9d96b9586522bafaf70ebed5b80eb3d4cda",
+  "size": 46326,
+  "subdir": "linux-64",
+  "timestamp": 1602523368189,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/ujson-4.0.1-py38he6710b0_0.conda",
+  "version": "4.0.1"
+}
