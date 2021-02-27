@@ -1,0 +1,2 @@
+Some more interesting text
+This will be appended to the file.
