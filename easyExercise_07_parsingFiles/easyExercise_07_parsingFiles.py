@@ -8,7 +8,7 @@ Created on Sat Feb 27 20:56:20 2021
 
 """
 
-    This program reads a file and converts the content of the file into an array    
+    This program reads a file and converts the content of the file into an array.   
 
 """
 
@@ -17,7 +17,8 @@ Created on Sat Feb 27 20:56:20 2021
 from pathlib import Path
 # Create nice looking tables
 from tabulate import tabulate
-
+# Used for math and data processing
+import numpy as np
 
 #   CODE
 
@@ -31,11 +32,13 @@ content = content.splitlines()[21:]
 # Convert the strings into numbers
 data = [    [ float(row.split("\t")[0]) for row in content ],
             [ float(row.split("\t")[1]) for row in content ]    ]
+# Save the data as numpy.array
+data = np.array(data)
 
 # Format the data into a pretty table
 data_table = tabulate(
-    # Extract the ion and fitting parameters and put them into a list
-    zip(data[0], data[1]),
+    # Transpose the data. Swap columns and rows, because tabulate needs the data in that arrangement
+    data.T,
     # Add descriptive headers for the table
     headers = ["Column 1", "Column 2"] 
 )
