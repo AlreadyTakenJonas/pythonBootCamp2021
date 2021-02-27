@@ -312,3 +312,8 @@
 +defaults/noarch::zict-2.0.0-py_0
 +defaults/noarch::zipp-3.4.0-pyhd3eb1b0_0
 # update specs: ['anaconda']
+==> 2021-02-27 21:11:10 <==
+# cmd: /home/jonas/anaconda3/bin/conda install tabulate
+# conda version: 4.9.2
++defaults/linux-64::tabulate-0.8.9-py38h06a4308_0
+# update specs: ['tabulate']
