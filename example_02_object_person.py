@@ -81,12 +81,13 @@ class Person:
         """
         print(f"Hi, {other.getFullName()}! My name is {self.getFullName()}.")
 
-# Create instances of the class
-person1 = Person("Marie", "Mustermann", 22)
-person2 = Person("Max", "Mustermann", 20)
+if __name__ == "__main__":
+    # Create instances of the class
+    person1 = Person("Marie", "Mustermann", 22)
+    person2 = Person("Max", "Mustermann", 20)
 
-# Show some properties of the class
-print(f"Call method: {person1.getFullName()}")
-person1.setSurname("Müller")
-person2.greetYou(person1)
-print(f"It is possible to access attributes: {person2.name}")
+    # Show some properties of the class
+    print(f"Call method: {person1.getFullName()}")
+    person1.setSurname("Müller")
+    person2.greetYou(person1)
+    print(f"It is possible to access attributes: {person2.name}")
